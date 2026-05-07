@@ -6,9 +6,17 @@ import jakarta.persistence.*;
 public class Cliente {
 
     @Id
+<<<<<<< HEAD
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
+=======
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String nome;
+
+>>>>>>> bf460ff (Implemantações de metodos (buscarPorId, inserir))
     @ManyToOne
     private Endereco endereco;
 

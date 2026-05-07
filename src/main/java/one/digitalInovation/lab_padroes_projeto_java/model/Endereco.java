@@ -9,6 +9,10 @@ public class Endereco {
 
     @Id
     private String cep;
+<<<<<<< HEAD
+=======
+
+>>>>>>> bf460ff (Implemantações de metodos (buscarPorId, inserir))
     private String logradouro;
     private String complemento;
     private String bairro;
