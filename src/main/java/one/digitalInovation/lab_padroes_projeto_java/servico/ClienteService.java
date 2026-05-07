@@ -1,0 +1,18 @@
+package one.digitalInovation.lab_padroes_projeto_java.servico;
+
+import one.digitalInovation.lab_padroes_projeto_java.model.Cliente;
+
+public interface ClienteService {
+
+    Iterable<Cliente> buscarTodos();
+
+    Cliente buscarPorId(Long id) throws Exception;
+
+    void inserir(Cliente cliente);
+
+    void atualizar(Long id, Cliente cliente);
+
+    void deletar(Long id);
+
+
+}
