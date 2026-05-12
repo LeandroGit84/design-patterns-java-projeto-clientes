@@ -48,7 +48,7 @@ public class ClientRestController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletar(@PathVariable Long id){
-        clienteService.deletar(id);
+        clienteService.excluir(id);
         return ResponseEntity.ok().build();
     }
 
