@@ -6,8 +6,11 @@ import jakarta.persistence.*;
 public class Cliente {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nome;
+
     @ManyToOne
     private Endereco endereco;
 
@@ -18,7 +21,6 @@ public class Cliente {
     public void setId(Long id) {
         this.id = id;
     }
-
     public String getNome() {
         return nome;
     }
@@ -34,4 +36,6 @@ public class Cliente {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
+
+
 }
