@@ -1,4 +1,4 @@
-package one.digitalInovation.lab_padroes_projeto_java.servico;
+package one.digitalInovation.lab_padroes_projeto_java.service;
 
 import one.digitalInovation.lab_padroes_projeto_java.model.Cliente;
 
@@ -8,11 +8,11 @@ public interface ClienteService {
 
     Cliente buscarPorId(Long id);
 
-    void inserir(Cliente cliente);
+    Cliente inserir(Cliente cliente);
 
     void atualizar(Long id, Cliente cliente);
 
-    void excluir(Long id);
+    void deletar(Long id);
 
 
 }

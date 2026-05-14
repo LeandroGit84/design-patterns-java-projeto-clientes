@@ -1,4 +1,4 @@
-package one.digitalInovation.lab_padroes_projeto_java.servico;
+package one.digitalInovation.lab_padroes_projeto_java.service;
 
 import one.digitalInovation.lab_padroes_projeto_java.model.Endereco;
 import org.springframework.cloud.openfeign.FeignClient;

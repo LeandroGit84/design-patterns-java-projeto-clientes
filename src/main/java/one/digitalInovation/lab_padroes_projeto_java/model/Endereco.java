@@ -2,6 +2,8 @@ package one.digitalInovation.lab_padroes_projeto_java.model;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
@@ -9,10 +11,6 @@ public class Endereco {
 
     @Id
     private String cep;
-<<<<<<< HEAD
-=======
-
->>>>>>> bf460ff (Implemantações de metodos (buscarPorId, inserir))
     private String logradouro;
     private String complemento;
     private String bairro;
